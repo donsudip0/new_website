@@ -1,9 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Hello, World!</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Creative Nav Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hover-styles.css">
+    <script src="https://kit.fontawesome.com/f5cc883231.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <nav>
+        <div class="logo">Web Dev Creative</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="get-started"><a href="#">Get Started</a></div>
+        <input type="checkbox" id="checkbtn">
+        <label for="checkbtn" id="bars">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        
+        <div class="dropdown-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><div class="get-started-drop"><a href="#">Get Started</a></div></li>
+        </div>
+    </nav>
+    <main>
+        <div class="welcome">Welcome</div><br>
+        <div class="lorem">Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Commodi, eum.</div>
+    </main>
 </body>
 </html>
